@@ -1,0 +1,10 @@
+/* Put your CSS here */
+html, body {
+    margin: 20px;
+    background-color: #eee;
+}
+
+
+.container {
+  max-width: 600px;
+}

@@ -1,0 +1,7 @@
+ {{ paginate-collection}}
+ <ul class="list-group">
+ {{#each post in controller}}
+    <li class="list-group-item">{{post.title}}</li>
+ {{/each}}
+ </ul>
+ {{ paginate-collection routeName='posts.page'}}
